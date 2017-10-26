@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationBarDemo", "NavigationBarDemo\NavigationBarDemo.csproj", "{C942CB9E-43C8-4206-8885-54FD34CC8412}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guifreaks.NavigationBar", "Guifreaks.NavigationBar\Guifreaks.NavigationBar.csproj", "{C5642C22-A09F-42C5-AF8C-60197EB89BBB}"
@@ -28,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {908BD342-6A71-4067-8E87-C9C875A2CB5F}
 	EndGlobalSection
 EndGlobal
