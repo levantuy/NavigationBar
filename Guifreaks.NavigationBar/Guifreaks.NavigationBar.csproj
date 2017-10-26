@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C5642C22-A09F-42C5-AF8C-60197EB89BBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guifreaks.NavigationBar</RootNamespace>
+    <AssemblyName>Guifreaks.NavigationBar</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Setup\0.1\Bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlState.cs" />
+    <Compile Include="NaviBandOrgOrderComparer.cs" />
+    <Compile Include="Design\NaviBandDesigner.cs" />
+    <Compile Include="Design\NaviBarDesigner.cs" />
+    <Compile Include="Design\NaviGroupDesigner.cs" />
+    <Compile Include="NaviBandClientArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviBandClientArea.Designer.cs">
+      <DependentUpon>NaviBandClientArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBandCollapsed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviBandEventArgs.cs" />
+    <Compile Include="NaviBandOrderComparer.cs" />
+    <Compile Include="NaviBandPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaviBandPopup.Designer.cs">
+      <DependentUpon>NaviBandPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBandRenderer.cs" />
+    <Compile Include="NaviBandRendererOff7.cs" />
+    <Compile Include="NaviBandSetting.cs" />
+    <Compile Include="NaviBarRendererOff3.cs" />
+    <Compile Include="NaviBarRendererOff7.cs" />
+    <Compile Include="NaviBarRenderer.cs" />
+    <Compile Include="NaviBarSettings.cs" />
+    <Compile Include="NaviButtonCollapse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviButtonCollapse.Designer.cs">
+      <DependentUpon>NaviButtonCollapse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviButtonCollection.cs" />
+    <Compile Include="NaviButtonOptions.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviButtonOptions.Designer.cs">
+      <DependentUpon>NaviButtonOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviColorTableOff3Green.cs" />
+    <Compile Include="NaviColorTableOff3Silver.cs" />
+    <Compile Include="NaviColorTableOff7Black.cs" />
+    <Compile Include="NaviColorTableOff7Silver.cs" />
+    <Compile Include="NaviContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaviForm.Designer.cs">
+      <DependentUpon>NaviForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviGroup.Designer.cs">
+      <DependentUpon>NaviGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviGroupRenderer.cs" />
+    <Compile Include="NaviGroupRendererOff3.cs" />
+    <Compile Include="NaviGroupRendererOff7.cs" />
+    <Compile Include="NaviLayoutStyle.cs" />
+    <Compile Include="NaviOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NaviOptionsForm.Designer.cs">
+      <DependentUpon>NaviOptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviSplitterRendererOff3.cs" />
+    <Compile Include="NaviSplitterRendererOff7.cs" />
+    <Compile Include="NaviColorTableOff10.cs" />
+    <Compile Include="NaviButtonRendererOff10.cs" />
+    <Compile Include="NaviColorTableOff3.cs" />
+    <Compile Include="NaviButtonRendererOff3.cs" />
+    <Compile Include="GradientSplitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GradientSplitter.Designer.cs">
+      <DependentUpon>GradientSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviButtonRenderer.cs" />
+    <Compile Include="InputState.cs" />
+    <Compile Include="NaviBand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviBand.Designer.cs">
+      <DependentUpon>NaviBand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviBar.Designer.cs">
+      <DependentUpon>NaviBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviBandCollection.cs" />
+    <Compile Include="NaviButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviButton.Designer.cs">
+      <DependentUpon>NaviButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviButtonRendererOff7.cs" />
+    <Compile Include="NaviColorTable.cs" />
+    <Compile Include="NaviControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviControl.Designer.cs">
+      <DependentUpon>NaviControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NaviLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviColorTableOff7.cs" />
+    <Compile Include="NaviLayoutOff.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NaviRenderer.cs" />
+    <Compile Include="NaviSplitterRenderer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\DesignTimeText.Designer.cs" />
+    <Compile Include="NaviToolstripOffice07ColorTable.cs" />
+    <Compile Include="NaviToolstripOffice07Renderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NaviBandPopup.resx">
+      <DependentUpon>NaviBandPopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DesignTimeText.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Design\ClassDiagram02.cd" />
+    <None Include="img\Up.png" />
+    <None Include="Key.snk" />
+    <None Include="Resources\DesignTimeText.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NaviBar.bmp" />
+    <EmbeddedResource Include="NaviGroup.bmp" />
+    <EmbeddedResource Include="NaviOptionsForm.resx">
+      <DependentUpon>NaviOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="NaviSuiteToolboxItems.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeLayoutEngine.txt" />
+    <Content Include="SharedObjects.txt" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Guifreaks.Common\Guifreaks.Common.csproj">
+      <Project>{66F864B6-34D3-4AF0-93A7-BB3731360E17}</Project>
+      <Name>Guifreaks.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

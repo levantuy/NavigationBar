@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Guifreaks.NavigationBar.NaviBar">
+    <Position X="3.75" Y="5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQCIAAAIICihAUAscAGCCAAGABIFhAQAoAAECoGiyGM=</HashCode>
+      <FileName>NaviBar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviBand">
+    <Position X="6" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AUCAAABAACCAAQAEQACgAEACMAAAAAAAAAAAAAAAlAA=</HashCode>
+      <FileName>NaviBand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviButton">
+    <Position X="2" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAgAAIAGAQAQBAQADgQEBCIgAAQAJkIACAIAAChIA=</HashCode>
+      <FileName>NaviButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviLayoutEngine">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAgAAAAAAAAAAAAAAAABIAAAEAAAAQAA=</HashCode>
+      <FileName>NaviLayoutEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviOfficeLayout">
+    <Position X="8" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>TAFCgEwBQhIQQojQgEGAcJCAkDSAEEBoaCAGAEwkyIA=</HashCode>
+      <FileName>NaviOfficeLayout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviControl">
+    <Position X="4" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAGCAAAAAgADAAAACAAAAAAAgAAAAIAAEAAA=</HashCode>
+      <FileName>NaviControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LayoutStyle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviColorTable">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NaviColorTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guifreaks.NavigationBar.NaviRenderer">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NaviRenderer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ColorTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="Guifreaks.NavigationBar.NaviLayoutStyle">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAABAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NaviLayoutStyle.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

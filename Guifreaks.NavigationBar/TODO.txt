@@ -1,0 +1,46 @@
+﻿Must haves (or bugs)
+
+- Add design time categories and descriptions
+
+Should have (must have features)
+
+- Improve popup, nativewindow and dropshadows
+
+Could have (nice to haves)
+
+- Office 2010/Guifreaks layout
+- Reordering GroupView inside the band
+- NavigationBar button options with right click menu
+- Support for cutt, copy and paste (design time) 
+
+Done
+
+- Save the layout to a stream (amount of visible buttons, order of buttons, visibility of buttons, 
+  collapsed state)
+- Navigation pane options form
+- Design time click on button
+- Clean up initialisation of layout engine in NaviBar
+- Right to left layout 
+- Installer
+- Background color for band 
+- Activeband property not working when selecting a band. (design time)
+- Office 2003 layout
+- Implementation of active button 
+- Need colors fixed on the gradient
+- ActiveButtonChanging event
+- ActiveButtonChanged event
+- VisibleButtons property
+- External management of the layout
+- Additional button in the compact button region containing the button options
+- Images in the options menu
+- Right to left layout in the navigation pane
+- BarBands linked to buttons
+- Header text of the active button
+- Being able to add controls design time to a band. 
+- Bands/buttons visible in document outline
+- Bands will change during design time when button is selected
+- Right to left layout for the groupview
+- Collapse the NavigationBar to compact mode
+- Text of active band when collapsed
+- Office 2007 Black layout
+- Office 2007 Silver layout

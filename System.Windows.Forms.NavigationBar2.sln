@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationBarDemo", "NavigationBarDemo\NavigationBarDemo.csproj", "{C942CB9E-43C8-4206-8885-54FD34CC8412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guifreaks.NavigationBar", "Guifreaks.NavigationBar\Guifreaks.NavigationBar.csproj", "{C5642C22-A09F-42C5-AF8C-60197EB89BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guifreaks.Common", "Guifreaks.Common\Guifreaks.Common.csproj", "{66F864B6-34D3-4AF0-93A7-BB3731360E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C942CB9E-43C8-4206-8885-54FD34CC8412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C942CB9E-43C8-4206-8885-54FD34CC8412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C942CB9E-43C8-4206-8885-54FD34CC8412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C942CB9E-43C8-4206-8885-54FD34CC8412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5642C22-A09F-42C5-AF8C-60197EB89BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5642C22-A09F-42C5-AF8C-60197EB89BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5642C22-A09F-42C5-AF8C-60197EB89BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5642C22-A09F-42C5-AF8C-60197EB89BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F864B6-34D3-4AF0-93A7-BB3731360E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F864B6-34D3-4AF0-93A7-BB3731360E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F864B6-34D3-4AF0-93A7-BB3731360E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F864B6-34D3-4AF0-93A7-BB3731360E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

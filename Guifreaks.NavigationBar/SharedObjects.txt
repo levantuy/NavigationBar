@@ -1,0 +1,8 @@
+﻿
+De layout engine bepaalt hoe de Navigationbar eruit komt te zien. 
+Zo heb je de nieuwe functionaliteit volgens de office 2007 layout
+En volgens oudere versies en functionaliteiten. 
+
+De volgende objecten zijn altijd aanwezig en dus niet te wijzigen: 
+- De hoofdcontainer van de navigationbar
+- De barbands

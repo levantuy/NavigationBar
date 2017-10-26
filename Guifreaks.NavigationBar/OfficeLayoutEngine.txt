@@ -1,0 +1,67 @@
+﻿Office layout engine
+
+Het plaatsen van de buttons verloopt op de volgende wijze.
+
+Eerst wordt voor elke grote zichtbare button de positie bepaald. 
+Dit gebeurd door vanaf boven naar onderen de buttons te plaatsen. 
+Als het aantal geplaatste buttons gelijk is aan het aantal zichtbare 
+grote knoppen gaat het proces verder met het plaatsen van de kleine 
+buttons. Het plaatsen van de kleine buttons gebeurd vanaf de linkerkant
+naar de rechterkant. Het is belangrijk om te weten dat de buttons die 
+later in de collectie voorkomen automatisch uit beeld verdwijnen op het 
+moment dat er geen ruimte meer is. 
+
+Voor het bepalen van de locatie is het van belang of het een links naar rechts
+layout is of een rechts naar links layout. 
+
+The layout engine will be triggered after the following events occured
+
+- The splitters position has been changed
+	The splitter wordt bewogen in stappen gelijk aan de hoogte van de buttons. 
+	Op het moment dat de splitter beneden of boven de hoogte komt wordt de 
+	hoeveelheid zichtbare buttons gewijzigd. De positie van de splitter mag 
+	nooit hoger zijn dan de hoeveelheid zichtbare knoppen maal de hoogte van de buttons
+	De positie van de splitter wordt aangepast en het layout proces wordt uitgevoerd. 
+
+- The amount of large buttons has been changed
+		
+	De hoeveelheid grote zichtbare knoppen bepaald hoeveel grote knoppen zichtbaar
+	zijn in het scherm. Dit aantal is belangrijk want deze bepaald hoe de knoppen 
+	worden weergegeven. De hoeveelheid zichtbare knoppen mag niet groter zijn dan 
+	de hoeveelheid zichtbare knoppen of mag niet kleiner zijn dan nul. De hoeveelheid
+	kan aangepast worden door het heen en weer bewegen van de splitter of door de 
+	hoeveelheid direct aan te passen. Na het aanpassen wordt het layout proces 
+	opnieuw uitgevoerd. 
+
+- The visibility of one of the buttons has been changed
+
+	Als één van de knoppen van zichtbaar naar niet zichtbaar of andersom wordt aangepast
+	wijzigt automatisch de hoeveelheid grote zichtbare knoppen en de hoeveelheid knoppen. 	
+	De positie van de splitter en de positie van de knoppen wordt bepaald in het layout process. 
+	Deze actie kan ook geinitieerd worden vanuit het opties menu. 
+	
+- The ordering of the buttons has been changed
+
+	Als de verzameling van knoppen wijzigt in volgorde wordt het layoutproces opnieuw 
+	uitgevoerd zodat de knoppen op de juiste volgorde getoond worden. De hoeveelheid zichtbare
+	grote knoppen blijft hetzelfde. 
+
+- The collection of buttons has been changed (added or removed) 
+
+	Als één van de knoppen wordt verwijderd of toegevoegd moet het layoutproces opnieuw 
+	uitgevoerd worden. Het aantal zichtbare grote knoppen blijft hetzelfde. Het aantal 
+	compacte knoppen zal gewijzigd worden waardoor mogelijk andere knoppen een plek opschuiven
+	
+- De grootte van de navigatiebar wordt aangepast. 
+
+- The height of the buttons has been changed
+
+- De navigationbar collapse knop wordt aangeklikt
+
+- De navigationbar wordt gecollapsed vanuit de code
+
+- De actieve band wordt gewijzigd
+
+- Rechts naar links of links naar rechts wordt gewijzigd
+
+- Nadat de navigationbar volledig is aangemaakt. 
